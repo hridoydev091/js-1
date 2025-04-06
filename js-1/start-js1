@@ -1,0 +1,65 @@
+let text = "javascript"; // string
+let number = 100;
+let islearning = true; // Boolean
+let fruits = ["mango","apple", "orange"];// array
+let person = { name:"Hridoy",age : 25};// object
+t = null; // null o jane ei khane kisu nai
+p = undefined; // undefiend o janei na or kache kisu acche ki ana
+console.log (text,number,islearning,fruits,person,t,p);
+
+//numerical data types
+let age = 24;//1st console log ye age likhte Hobe
+let price = 100.5;// oi loger bitore abr tyopeof likhe age dite hobe
+
+
+//---------string data type---------
+let fullName = "tony stark";
+
+// -------------Boolean data type-------
+isFollow = true;
+
+// ------------Undefiend data type---------
+let x;
+
+// ------------null data type --------------
+let y = null;
+
+//-----------------Bigint data type-----------
+let xe = BigInt("123");
+
+
+// --------------symbol data type---------------
+let xd = symbol("Hello");
+
+//  ---------ei niom ye hoi object--------
+const student = {
+    fullName: "Rahul Kumar",
+    age :20,
+    cgpa: 8.2,
+    isPass: true,
+};
+
+// notun valu anar niom student ["age"]=student ["age"]+1;
+// abar jodi name poriborton korte jai student["name"]="Rahul Sharma";
+console.log(student.age);//abr r ekta niom holo (student["age"])
+
+
+
+//------------object-------
+const product = {
+    title :"Ball Pen",
+    ratting: 4,
+    offer :5,
+    price:270,
+};
+console.log(product);
+
+//-----------object----------
+const product1={
+    name :"Shradha",
+    posts:10,
+    followers:430,
+    following:8,
+    message:10,
+}
+console.log(product1);
